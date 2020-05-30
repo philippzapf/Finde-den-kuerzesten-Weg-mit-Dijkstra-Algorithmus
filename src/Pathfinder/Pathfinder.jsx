@@ -82,7 +82,9 @@ export default class Pathfinder extends Component {
         <p>
           Diese Applikation zeigt, wie ein Dijkstra Algorithmus den Weg von
           einem Startpunkt zu einem Endpunkt berechnet, wenn Hindernisse im Weg
-          liegen. Probiere es aus:
+          liegen. Der Algorithmus sucht immer den Weg mit den kurzesten
+          "Gewicht". Jede Zelle im Feld ist mit dem Gewicht "1" vom anderen
+          entfernt. Probiere es aus:
         </p>
         <ol>
           <li>Drücke den Knopf und schaue zu.</li>
