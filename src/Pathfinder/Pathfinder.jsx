@@ -78,7 +78,7 @@ export default class Pathfinder extends Component {
 
     return (
       <>
-        <h1>Pathfinder mit Dijkstra Algorithmus</h1>
+        <h1>Finde den Weg mit dem Dijkstra Algorithmus</h1>
         <p>
           Diese Applikation zeigt, wie ein Dijkstra Algorithmus den Weg von
           einem Startpunkt zu einem Endpunkt berechnet, wenn Hindernisse im Weg
@@ -96,9 +96,7 @@ export default class Pathfinder extends Component {
           <li>Drücke nochmals den Knopf.</li>
         </ol>
 
-        <button onClick={() => this.visualizeDijkstra()}>
-          Finde den Weg mit dem Dijkstra Algorithmus
-        </button>
+        <button onClick={() => this.visualizeDijkstra()}>Los geht's</button>
         <div className="grid">
           {grid.map((row, rowIdx) => {
             return (
